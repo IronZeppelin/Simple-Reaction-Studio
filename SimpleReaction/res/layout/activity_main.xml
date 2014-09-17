@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/header_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/header_dec"
+        android:src="@drawable/sr_header" />
+
+    <Button
+        android:id="@+id/project_bt"
+        android:layout_width="match_parent"
+ 	    android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginBottom="5dp"
+        android:background="#DF0101"
+        android:text="@string/project_pg"
+        android:textSize="22sp"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/studio_lk_bt"
+        android:layout_width="match_parent"
+  		android:layout_height="wrap_content"
+  		android:layout_weight="1"
+        android:layout_marginBottom="5dp"
+        android:background="#DF0101"
+        android:text="@string/studio_lk_pg"
+        android:textSize="22sp"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/about_bt"
+        android:layout_width="match_parent"
+  		android:layout_height="wrap_content"
+  		android:layout_weight="1"
+        android:layout_marginBottom="5dp"
+        android:background="#DF0101"
+        android:text="@string/about_pg"
+        android:textSize="22sp"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/contact_bt"
+        android:layout_width="match_parent"
+ 	    android:layout_height="wrap_content"
+  		android:layout_weight="1"
+        android:layout_marginBottom="5dp"
+        android:background="#DF0101"
+        android:text="@string/contact_pg"
+        android:textSize="22sp"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

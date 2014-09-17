@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context=".ContactActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/icon_caption"
+        android:src="@drawable/contact" />
+
+    <TextView
+        android:id="@+id/contact_email_text"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="@string/contact_info_txt_email"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/contact_email_link"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="@string/contact_email_txt"
+        android:textColor="#DF0101"
+        android:textSize="30sp" />
+
+</LinearLayout>

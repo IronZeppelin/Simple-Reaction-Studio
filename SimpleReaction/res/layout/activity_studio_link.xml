@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".StudioLinkActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/icon_caption"
+        android:src="@drawable/studiolink" />
+    
+    <Button
+        android:id="@+id/studio_facebook_bt"
+        android:layout_width="match_parent"
+ 	    android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginBottom="5dp"
+        android:background="#DF0101"
+        android:text="@string/facebook"
+        android:textSize="22sp"
+        android:textColor="#FFFFFF" />
+    
+    <Button
+        android:id="@+id/studio_blog_bt"
+        android:layout_width="match_parent"
+ 	    android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginBottom="5dp"
+        android:background="#DF0101"
+        android:text="@string/blog"
+        android:textSize="22sp"
+        android:textColor="#FFFFFF" />
+    
+    <Button
+        android:id="@+id/studio_steam_bt"
+        android:layout_width="match_parent"
+ 	    android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginBottom="5dp"
+        android:background="#DF0101"
+        android:text="@string/steam"
+        android:textSize="22sp"
+        android:textColor="#FFFFFF" />
+    
+    <Button
+        android:id="@+id/studio_deviant_art_bt"
+        android:layout_width="match_parent"
+ 	    android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginBottom="5dp"
+        android:background="#DF0101"
+        android:text="@string/deviant"
+        android:textSize="22sp"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

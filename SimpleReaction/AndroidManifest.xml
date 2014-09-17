@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.SRstudio.simplereaction"
+    android:versionCode="2"
+    android:versionName="1.0.1" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-sdk
+        android:minSdkVersion="12"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name="com.SRstudio.simplereaction.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.SRstudio.simplereaction.About"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name="com.SRstudio.simplereaction.Projects"
+            android:label="@string/title_activity_projects" >
+        </activity>
+        <activity
+            android:name="com.SRstudio.simplereaction.StudioLinkActivity"
+            android:label="@string/title_activity_studio_link" >
+        </activity>
+        <activity
+            android:name="com.SRstudio.simplereaction.ContactActivity"
+            android:label="@string/title_activity_contact" >
+        </activity>
+        <activity
+            android:name="com.SRstudio.simplereaction.ProjectWebDesigActivity"
+            android:label="@string/title_activity_project_web_desig" >
+        </activity>
+        <activity
+            android:name="com.SRstudio.simplereaction.ProjectModDevActivity"
+            android:label="@string/title_activity_project_mod_dev" >
+        </activity>
+        <activity
+            android:name="com.SRstudio.simplereaction.ProjectModDevSkyrimActivity"
+            android:label="@string/title_activity_project_mod_dev_skyrim" >
+        </activity>
+        <activity
+            android:name="com.SRstudio.simplereaction.ProjectModDevTerrariaActivityy"
+            android:label="@string/title_activity_project_mod_dev_terraria" >
+        </activity>
+        <activity
+            android:name ="com.SRstudio.simplereaction.ProjectModDevTrackmaniaActivityvity"
+            android:label="@string/title_activity_project_mod_dev_trackmania" >
+        </activity>
+        <activity
+            android:name="com.SRstudio.simplereaction.AppDevActivity"
+            android:label="@string/title_activity_app_dev" >
+        </activity>
+        <activity
+            android:name="com.SRstudio.simplereaction.DigitalArtActivity"
+            android:label="@string/title_activity_digital_art" >
+        </activity>
+    </application>
+
+</manifest>

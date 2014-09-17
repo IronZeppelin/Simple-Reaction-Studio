@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main Activity -->
+    <string name="app_name">Simple Reaction</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="simple_reaction_studio">Simple Reaction Studio</string>
+    <string name="project_pg">Projects</string>
+    <string name="studio_lk_pg">Studio Links</string>
+    <string name="about_pg">About</string>
+    <string name="contact_pg">Contact</string>
+    <string name="header_dec">Header</string>
+
+    <!-- Project Activity -->
+    <string name="title_activity_projects">Projects</string>
+    <string name="proj_web_des_bt">Web Design</string>
+    <string name="proj_app_dev_bt">App Development</string>
+    <string name="proj_mod_dev_bt">Mod Development</string>
+    <string name="proj_digital_art_bt">Digital Art</string>
+
+    <!-- Studio Link Activity -->
+    <string name="title_activity_studio_link">Studio Links</string>
+    <string name="facebook">Facebook</string>
+    <string name="blog">Blog</string>
+    <string name="steam">Steam</string>
+    <string name="deviant">Deviant Art</string>
+
+    <!-- About Activity -->
+    <string name="title_activity_about">About</string>
+    <string name="about_header">For every action there is a Simple Reaction!</string>
+    <string name="about_body_1">Simple Reaction Studio was founded by me, Matthew Aidukas. I am a current Computer Science Major and over all science enthusiast. Simple Reaction Studio is a way for me to show people around the world my ideas and creations. I have spent years learning various programming languages and software tools, and have decided to put my knowledge to use. My projects include android applications, video game modifications and design, web design, and digital art.</string>
+	<string name="about_body_2">I started a small studio called Reackt Studio, back in 2012, as an identity to my web ideas and design. In 2013, I got evolved into various tools, such as Android SDK, Skyrim Creation Kit, and Visual Studio, and decided to take on more serious projects and also a new name, and then Simple Reaction was born.</string>
+    <string name="about_body_3">Simple Reaction Studio will continue to grow with every project. Just like any artist, my next design becomes sharper, cleaner, more detailed, and ever more creative.</string>
+     
+    <!-- Contact activity -->
+    <string name="title_activity_contact">Contact Information</string>
+    <string name="contact_info_txt_blab">Contact information</string>
+    <string name="contact_info_txt_email">Email: </string>
+    <string name="contact_email_txt">simplereactionstudio@gmail.com</string>
+
+    <!-- Web Design Activity -->
+
+    <string name="title_activity_project_web_desig">Web Design</string>
+    <string name="icon_caption">Logo</string>
+    <string name="no_web_content">Texas Tech ACM website</string>
+    <string name="acm_description">The ACM website was built using the Wordpress package, along with vairous plugins and custom coding, such as a self built paypal form for membership signups.</string>
+
+    <!-- App Dev -->
+    <string name="studio_app">Studio App</string>
+    <string name="bit_converter">Bit Converter</string>
+    <string name="bit_con_decscription">A basic converter for Binary, Decimal, Hexidecimal, and Octal Values.</string>
+    <string name="logic_gator">Logic Gator</string>
+    <string name="logic_gat_description">Information on the basic workings of logic gates.</string>
+    
+    <!-- Mod Dev Activity -->
+    <string name="title_activity_project_mod_dev">Mod Development</string>
+    <string name="scroll_down">Scroll down to view more projects</string>
+    <string name="title_skyrim_mod">View Skyrim Mods</string>
+    <string name="skyrim_book_masters">Skyrim Book Masters Book and Quest Mod</string>
+    <string name="title_terraria_mod">View Terraria Mods</string>
+    <string name="title_trackmania_track">View Trackmania Tracks</string>
+    <string name="title_activity_project_mod_dev_skyrim">Skyrim Mods</string>
+
+    <!-- Skyrim -->
+    <string name="title_skyrim">Skyrim Mods</string>
+    <string name="title_bookmaster">The Book Masters</string>
+    <string name="bm_desc">"  This mod allow you to meet a new friend Artius. A Master Scribe in the Master Book Guild, Artius tells you a little bit about his life and the orgins of the Book Masters. Hiding from the chaos in Skyrum, Artius has taken refuge in the Drunken Huntsman in Whiterun...</string>
+    <string name="bookmaster_bt">View Mod</string>
+
+    <!-- Terraria -->
+    <string name="title_activity_project_mod_dev_terraria">Terraria Mods</string>
+    <string name="blazeblack_track_txt">Blazer and Blade</string>
+    <string name="fcl_track_txt">First Class Travel</string>
+    <string name="dirtmong_track_txt">Dirt Mongrals</string>
+    <string name="freeride_track_txt">Free Ride</string>
+    <string name="world_o_round_track_txt">"Worl'O Round"</string>
+    <string name="title_activity_project_mod_dev_trackmania">Trackmania Mods</string>
+    <string name="title_activity_app_dev">App Development</string>
+    <string name="title_activity_digital_art">Digital Art</string>
+    
+    <!-- Web Dev -->
+    <string name="webactivity">Click the link below to view past web designs</string>
+	<string name="web_bt">Website Link</string>
+</resources>

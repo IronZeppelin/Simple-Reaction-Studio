@@ -1,0 +1,81 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="top"
+    android:orientation="vertical">
+	    <LinearLayout android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" 
+	        android:orientation="vertical"
+	        android:background="#000000"
+   			android:gravity="center_horizontal">
+
+		    <TextView
+		        android:id="@+id/Header"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textColor="#FFFFFF"
+       	 		android:textSize="30sp" 
+       	 		android:layout_marginBottom="20dp"
+		        android:text="@string/title_activity_project_mod_dev" />
+		
+		    <ImageView
+		        android:id="@+id/SkyrimLogo"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:contentDescription="@string/icon_caption"
+		        android:src="@drawable/skyrimlogo" />
+
+		    <Button
+		        android:id="@+id/skyrim_bt"
+		        android:layout_width="match_parent"
+		 	    android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:layout_marginBottom="10dp"
+		        android:background="#DF0101"
+		        android:text="@string/title_skyrim_mod"
+		        android:textSize="22sp"
+		        android:textColor="#FFFFFF"  />
+
+		    <ImageView
+		        android:id="@+id/TerrariaLogo"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:contentDescription="@string/icon_caption"
+		        android:src="@drawable/terraria_logo_wall" />
+
+		    <Button
+		        android:id="@+id/terraria_bt"
+		        android:layout_width="match_parent"
+		 	    android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:layout_marginBottom="25dp"
+		        android:background="#DF0101"
+		        android:text="@string/title_terraria_mod"
+		        android:textSize="22sp"
+		        android:textColor="#FFFFFF"  />
+		   
+		    <ImageView
+		        android:id="@+id/TrackmaniaLogo"
+		        android:layout_width="259dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1.32"
+		        android:contentDescription="@string/icon_caption"
+		         android:layout_marginBottom="15dp"
+		        android:src="@drawable/tm_logo" />
+
+		    <Button
+		        android:id="@+id/trackmania_bt"
+		        android:layout_width="match_parent"
+		 	    android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:layout_marginBottom="15dp"
+		        android:background="#DF0101"
+		        android:text="@string/title_trackmania_track"
+		        android:textSize="22sp"
+		        android:textColor="#FFFFFF"  />
+
+	</LinearLayout>
+</ScrollView>
+
